@@ -1,5 +1,5 @@
 import { Quote, ChevronRight, ChevronLeft } from "lucide-react";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Glide from "@glidejs/glide";
 
 const testiData = [
@@ -49,6 +49,23 @@ const Testimonial = () => {
       animationDuration: 700,
       gap: 0,
       classes: {
+        swipeable: "glide__swipeable",
+        dragging: "glide__dragging",
+        direction: {
+          ltr: "glide__direction-ltr",
+          rtl: "glide__direction-rtl",
+        },
+        type: {
+          slider: "glide__slider",
+          carousel: "glide__carousel",
+        },
+        slide: {
+          active: "glide__slide--active",
+          clone: "glide__slide--clone",
+        },
+        arrow: {
+          disabled: "glide__arrow--disabled",
+        },
         nav: {
           active: "[&>*]:bg-wuiSlate-700",
         },
@@ -84,11 +101,16 @@ const Testimonial = () => {
           {/*    <!-- Slides --> */}
           <div className="overflow-hidden" data-glide-el="track">
             <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-              {testiData.map(item => (
-                <li key={item.name} className="w-full max-w-full max-h-full m-auto flex flex-col justify-center items-center gap-6">
-                <p className="text-base md:text-xl max-w-md md:max-w-screen-md tracking-wide mx-auto text-center">{item.content}</p>
-                <h5 className="text-base tracking-wide">{item.name}</h5>
-              </li>
+              {testiData.map((item) => (
+                <li
+                  key={item.name}
+                  className="w-full max-w-full max-h-full m-auto flex flex-col justify-center items-center gap-6"
+                >
+                  <p className="text-base md:text-xl max-w-md md:max-w-screen-md tracking-wide mx-auto text-center">
+                    {item.content}
+                  </p>
+                  <h5 className="text-base tracking-wide">{item.name}</h5>
+                </li>
               ))}
             </ul>
           </div>
