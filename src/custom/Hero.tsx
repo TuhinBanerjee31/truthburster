@@ -16,7 +16,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="min-h-[80vh] w-full bg-[rgb(253,251,246)] font-Rubik">
+    <div className="min-h-[90vh] w-full bg-[rgb(253,251,246)] font-Rubik">
       <div className="max-w-screen-xl mx-auto pt-16 grid grid-cols-12 place-items-center px-5">
         {/* ALL TEXT AREA */}
         <div className="col-span-12 md:col-span-6">
