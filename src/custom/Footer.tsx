@@ -7,9 +7,9 @@ const Footer = () => {
             <h5 className='text-base'>© <span className='font-play'>truthburster</span>. All rights reserved.</h5>
 
             <ul className='flex gap-4'>
-            <Link to="\terms" className='tracking-wide text-base'>Terms of Service</Link>
-            <Link to="\policy" className='tracking-wide text-base'>Privacy Policy</Link>
-            <Link to="\contact" className='tracking-wide text-base'>Contact</Link>
+            <Link to={"/terms"} className='tracking-wide text-base'>Terms of Service</Link>
+            <Link to={"/policy"} className='tracking-wide text-base'>Privacy Policy</Link>
+            <Link to={"/contact"} className='tracking-wide text-base'>Contact</Link>
         </ul>
         </div>
     </div>
