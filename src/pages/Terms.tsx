@@ -6,7 +6,7 @@ import Footer from "../custom/Footer";
 const Terms = () => {
   const [selectedSection, setSelectedSection] = useState<string | null>(null);
 
-  const sectionsContent = {
+  const sectionsContent: Record<string, string> = {
     Definitions: `Parties: "You" and "your" refer to you, as a user of the Site. A "user" is someone who accesses, browses, crawls, or in any way uses the Site. "We," "us," and "our" refer to Truthburster.
 
 Content: "Content" means text, images, photos, audio, video, and all other forms of data or communication. This includes Your Content, User Content, Truthburster Content, Third Party Content, and Site Content.`,

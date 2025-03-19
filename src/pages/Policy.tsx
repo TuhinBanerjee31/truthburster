@@ -6,7 +6,7 @@ import Footer from "../custom/Footer";
 const Policy = () => {
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
 
-  const topicsContent = {
+  const topicsContent: Record<string, string> = {
     "YOUR RIGHTS": `When using our website and submitting PD to us, you have certain rights under the Data Privacy Network, privacy laws in the United States including the California Consumer Privacy Act of 2018 (CaCPA), the California Privacy Rights Act of 2020 (CPRA), and privacy laws of other countries including the European Union General Data Protection Regulation of 2016 (the "EU GDPR"), the UK General Data Protection Regulation (UK GDPR / the Data Protection Act 2018), the Data Protection Act 2018, and other global privacy laws.`,
     "INFORMATION WE COLLECT AND HOW WE COLLECT IT": `We collect information automatically from your web browser, when you register as a user, make purchases, and interact with our website. This includes IP addresses, browser information, device data, and usage patterns.`,
     "HOW YOUR PD IS USED AND DISCLOSED": `We use your information to provide services, personalize content, improve our website, contact you with updates, resolve disputes, and send relevant marketing communications.`,

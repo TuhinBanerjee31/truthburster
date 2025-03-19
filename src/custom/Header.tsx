@@ -1,9 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { Search, PencilLine, Menu, X } from "lucide-react";
 
 const Header = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+
   const [dropDown, setDropDown] = useState(false);
   const [hide, setHide] = useState(true);
 
