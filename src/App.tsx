@@ -17,6 +17,15 @@ import OraclePage from "./pages/OraclePage";
 import SapPage from "./pages/SapPage";
 import CognizantPage from "./pages/CognizantPage";
 import DellPage from "./pages/DellPage";
+import Construction from "./pages/Construction";
+import LtPage from "./pages/LtPage";
+import KpngPage from "./pages/KpngPage";
+import BouyguesPage from "./pages/BouyguesPage";
+import VinciPage from "./pages/VinciPage";
+import BechtelPage from "./pages/BechtelPage";
+import SkanskaPage from "./pages/SkanskaPage";
+import StrabagPage from "./pages/StrabagPage";
+import ObayashiPage from "./pages/ObayashiPage";
 
 function App() {
   return (
@@ -29,6 +38,7 @@ function App() {
         <Route path="/policy" element={<Policy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/categories/it" element={<It />} />
+        <Route path="/categories/construction" element={<Construction />} />
         <Route path="/categories/it/ibm" element={<IbmPage />} />
         <Route path="/categories/it/google" element={<GooglePage />} />
         <Route path="/categories/it/microsoft" element={<MicrosoftPage />} />
@@ -39,6 +49,14 @@ function App() {
         <Route path="/categories/it/sap" element={<SapPage />} />
         <Route path="/categories/it/cognizant" element={<CognizantPage />} />
         <Route path="/categories/it/dell" element={<DellPage />} />
+        <Route path="/categories/construction/lt" element={<LtPage />} />
+        <Route path="/categories/construction/kpng" element={<KpngPage />} />
+        <Route path="/categories/construction/bouygues" element={<BouyguesPage />} />
+        <Route path="/categories/construction/vinci" element={<VinciPage />} />
+        <Route path="/categories/construction/bechtel" element={<BechtelPage />} />
+        <Route path="/categories/construction/skanska" element={<SkanskaPage />} />
+        <Route path="/categories/construction/strabag" element={<StrabagPage />} />
+        <Route path="/categories/construction/obayashi" element={<ObayashiPage />} />
       </Routes>
     </>
   );
