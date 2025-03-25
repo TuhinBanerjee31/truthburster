@@ -28,6 +28,6 @@ export type dataType = {
   percentage: number;
   totalReviews: number;
   metricProfile: number[];
-  office?: string[];
+  office: string[];
   reviews: Review[];
 };
