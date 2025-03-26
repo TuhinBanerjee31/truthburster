@@ -26,6 +26,8 @@ import BechtelPage from "./pages/BechtelPage";
 import SkanskaPage from "./pages/SkanskaPage";
 import StrabagPage from "./pages/StrabagPage";
 import ObayashiPage from "./pages/ObayashiPage";
+import Legal from "./pages/Legal";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -34,11 +36,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/findArea" element={<FindArea />} />
+        <Route path="/about-us" element={<About />} />
         <Route path="/view" element={<View />} />
         <Route path="/policy" element={<Policy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/categories/it" element={<It />} />
         <Route path="/categories/construction" element={<Construction />} />
+        <Route path="/categories/legal" element={<Legal />} />
         <Route path="/categories/it/ibm" element={<IbmPage />} />
         <Route path="/categories/it/google" element={<GooglePage />} />
         <Route path="/categories/it/microsoft" element={<MicrosoftPage />} />
