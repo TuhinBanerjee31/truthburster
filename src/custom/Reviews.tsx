@@ -1,16 +1,14 @@
 import { useState, useEffect } from "react";
 import {
   Star,
-  MoreVertical,
   ThumbsUp,
   ChevronDown,
   MessageCircle,
 } from "lucide-react";
 import { dataType, Review } from "../public";
 
-
 type CompanyProps = {
-  data: dataType
+  data: dataType;
 };
 
 const Reviews = ({ data }: CompanyProps) => {
@@ -101,33 +99,33 @@ const Reviews = ({ data }: CompanyProps) => {
     .slice(0, visibleReviews);
 
   return (
-    <div className="min-h-screen bg-[rgb(253,251,246)] p-6 font-Rubik">
-      <div className="max-w-screen-lg mx-auto bg-white rounded-lg shadow">
-        <div className="p-6">
-          <h2 className="text-lg font-semibold mb-4">
+    <div className="min-h-screen bg-[rgb(253,251,246)] px-4 sm:px-6 font-Rubik py-10">
+      <div className="max-w-screen-lg mx-auto bg-white rounded-lg shadow w-full">
+        <div className="p-4 sm:p-6">
+          <h2 className="text-base sm:text-lg font-semibold mb-4">
             How would you rate {data.title}?
           </h2>
 
           {/* Rating Selection */}
-          <div className="flex gap-2 mb-8">
+          <div className="flex gap-2 mb-6 flex-wrap">
             {renderStars(selectedRating, true)}
           </div>
 
           {/* Reviews Header */}
-          <div className="flex items-center justify-between mb-6">
-            <h3 className="text-lg font-semibold">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 gap-4">
+            <h3 className="text-base sm:text-lg font-semibold">
               Reviews ({reviews.length})
             </h3>
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
               <input
                 type="text"
                 placeholder="Search reviews..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full sm:w-auto px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <select
-                className="px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full sm:w-auto px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={sortBy}
                 onChange={(e) =>
                   setSortBy(e.target.value as "newest" | "highest" | "lowest")
@@ -141,10 +139,10 @@ const Reviews = ({ data }: CompanyProps) => {
           </div>
 
           {/* Reviews List */}
-          <div className="space-y-6">
+          <div className="grid gap-6">
             {filteredReviews.map((review) => (
               <div key={review.id} className="border-b border-gray-100 pb-6">
-                <div className="flex items-start justify-between">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                       <span className="text-blue-600 font-semibold">
@@ -166,17 +164,17 @@ const Reviews = ({ data }: CompanyProps) => {
                       </div>
                     </div>
                   </div>
-                  <button className="text-gray-400 hover:text-gray-600">
+                  {/* <button className="text-gray-400 hover:text-gray-600">
                     <MoreVertical className="w-5 h-5" />
-                  </button>
+                  </button> */}
                 </div>
 
                 <p className="mt-3 text-gray-700">{review.content}</p>
 
-                <div className="mt-4 flex items-center gap-4">
+                <div className="mt-4 flex flex-wrap gap-4">
                   <button
                     onClick={() => toggleComments(review.id)}
-                    className="flex items-center gap-2 px-3 py-1 border border-gray-200 rounded-lg text-sm hover:bg-gray-50"
+                    className="flex items-center gap-2 px-3 py-2 w-full sm:w-auto border border-gray-200 rounded-lg text-sm hover:bg-gray-50"
                   >
                     <MessageCircle className="w-4 h-4" />
                     <span>Comments ({review.comments.length})</span>
@@ -188,7 +186,7 @@ const Reviews = ({ data }: CompanyProps) => {
                   </button>
                   <button
                     onClick={() => toggleHelpful(review.id)}
-                    className={`flex items-center gap-2 text-sm ${
+                    className={`flex items-center gap-2 text-sm w-full sm:w-auto ${
                       review.isHelpful ? "text-blue-600" : "text-gray-500"
                     } hover:text-blue-700`}
                   >
@@ -203,7 +201,7 @@ const Reviews = ({ data }: CompanyProps) => {
 
                 {/* Comments Section */}
                 {review.showComments && (
-                  <div className="mt-4 pl-12">
+                  <div className="mt-4 pl-6">
                     {review.comments.map((comment) => (
                       <div
                         key={comment.id}
@@ -231,7 +229,7 @@ const Reviews = ({ data }: CompanyProps) => {
           {visibleReviews < reviews.length && (
             <button
               onClick={() => setVisibleReviews((prev) => prev + 2)}
-              className="mt-6 text-blue-600 font-medium hover:text-blue-700"
+              className="mt-6 text-blue-600 font-medium hover:text-blue-700 w-full sm:w-auto"
             >
               View More
             </button>
