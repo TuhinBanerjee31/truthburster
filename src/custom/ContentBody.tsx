@@ -73,7 +73,7 @@ const ContentBody = ({data}: CompanyProps) => {
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-8">
             <div className="w-20 h-20 bg-white rounded-lg shadow-md flex items-center justify-center transform transition-transform hover:scale-105">
-              <img src={data.logo} className="w-12 h-12" />
+              <img src={data.logo} className="w-15 h-auto" />
             </div>
 
             <div className="flex-1 text-center sm:text-left">

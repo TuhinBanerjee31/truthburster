@@ -33,12 +33,12 @@ const Header = () => {
       <div className="w-full px-4 py-5 border-b-[0.1px] border-b-[#371a11] hidden md:flex justify-between">
         {/* Left Area */}
         <div className="flex gap-7 items-center">
-          <div className="font-play flex gap-1 items-center">
+          <NavLink to={"/"} className="font-play flex gap-1 items-center">
             <img src={logo} className="w-10" />
             <h5 className="text-2xl text-[#854b23] font-medium">
               truthburster
             </h5>
-          </div>
+          </NavLink>
 
           <div className="flex font-Rubik items-center gap-2 bg-[#faf6ec] py-2 px-4 rounded-xl">
             <Search />
@@ -51,7 +51,7 @@ const Header = () => {
 
           <div className="font-Rubik flex gap-3">
             <NavLink to={"/categories"}>Categories</NavLink>
-            <NavLink to={"/resources"}>Resources</NavLink>
+            {/* <NavLink to={"/resources"}>Resources</NavLink> */}
             <NavLink to={"/about-us"}>About Us</NavLink>
           </div>
         </div>
@@ -138,12 +138,12 @@ const Header = () => {
           >
             Categories
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to={"/resources"}
             className="p-2 bg-[#faf6ec] w-[80%] rounded-lg"
           >
             Resources
-          </NavLink>
+          </NavLink> */}
           <NavLink
             to={"/about-us"}
             className="p-2 bg-[#faf6ec] w-[80%] rounded-lg"
