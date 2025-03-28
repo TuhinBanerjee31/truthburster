@@ -5,39 +5,48 @@ const trendCategories = [
   {
     compo: <MonitorDot />,
     title: "IT",
+    redirect:"/categories/it"
   },
   {
     compo: <Pickaxe />,
     title: "Construction",
+    redirect:"/categories/construction"
   },
   {
     compo: <Scale />,
     title: "Legal",
+    redirect:"/categories/legal"
   },
   {
     compo: <Factory />,
     title: "Manufacture",
+    redirect:"/categories/manufacture"
   },
   {
     compo: <SwatchBook />,
     title: "Textile",
+    redirect:"/categories/manufacture"
   },
   {
     compo: <RadioTower />,
     title: "Telecom",
+    redirect:"/categories/telecom"
   },
   {
     compo: <Headset />,
     title: "BPO",
+    redirect:"/categories/bpo"
   },
   {
     compo: <Zap />,
     title: "Energy",
+    redirect:"/categories/energy"
   },
   {
     compo: <Ship />,
     title: "Maritime",
-  },
+    redirect:"/categories/martime"
+  }
 ]
 
 const TrendingCategories = () => {
@@ -50,7 +59,7 @@ const TrendingCategories = () => {
       
       <div className='flex flex-wrap max-w-screen-xl mx-auto justify-between items-center py-8'>
         {trendCategories.map(item => (
-          <Link to={"/"} key={item.title} className='group w-25 h-25 md:w-30 md:h-30 m-2 px-2 py-4 shadow transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-110 flex flex-col justify-center items-center bg-white rounded-lg'>
+          <Link to={item.redirect} key={item.title} className='group w-25 h-25 md:w-30 md:h-30 m-2 px-2 py-4 shadow transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-110 flex flex-col justify-center items-center bg-white rounded-lg'>
               <div className='p-4 rounded-lg bg-[rgb(253,251,246)] transition-colors duration-300 ease-in-out group-hover:bg-[#ce9436] my-2'>{item.compo}</div>
 
             <p className='text-xs md:text-base'>{item.title}</p>
