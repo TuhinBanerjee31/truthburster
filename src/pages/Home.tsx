@@ -1,3 +1,4 @@
+import Banner from '../custom/Banner'
 import FeaturedMarquee from '../custom/FeaturedMarquee'
 import Footer from '../custom/Footer'
 import Header from '../custom/Header'
@@ -17,6 +18,7 @@ const Home = () => {
       <FeaturedMarquee />
       <TrendingCategories />
       <Overview />
+      <Banner />
       <Testimonial />
       <HotReviews />
       <SpecialCards />
