@@ -8,7 +8,7 @@ export const constructionData: dataType[] = [
     summary:
       "Larsen & Toubro (L&T) is a globally recognized engineering and construction conglomerate, specializing in infrastructure, heavy engineering, defense, and IT services. With a strong presence in diverse industries, L&T delivers world-class projects with a commitment to innovation and sustainability.",
     rating: 4.5,
-    redirect: "/categories/construction/lt",
+    redirect: "/categories/lt",
     percentage: 94,
     totalReviews: 12030,
     metricProfile: [3050, 420, 315, 210, 7890], // Example metrics
@@ -88,9 +88,9 @@ export const constructionData: dataType[] = [
     title: "KPNG",
     website: "https://www.kpng.org",
     summary:
-      "KPNG Construction is a leading provider of high-quality construction and infrastructure solutions. With expertise in residential, commercial, and industrial projects, we focus on innovation, sustainability, and efficiency to deliver exceptional results.",
+      "KPNG is a leading provider of high-quality construction, manufacturing, maritime, and energy solutions. With expertise in residential, commercial, industrial, and infrastructure projects, we focus on innovation, sustainability, and efficiency to deliver exceptional results across diverse sectors.",
     rating: 4.3,
-    redirect: "/categories/construction/kpng",
+    redirect: "/categories/kpng",
     percentage: 92,
     totalReviews: 8547,
     metricProfile: [2050, 320, 210, 110, 5857],
@@ -172,7 +172,7 @@ export const constructionData: dataType[] = [
     summary:
       "Bouygues Construction is a global leader in sustainable construction, infrastructure development, and energy efficiency solutions. With expertise in residential, commercial, and industrial projects, Bouygues delivers high-quality engineering solutions while prioritizing environmental responsibility.",
     rating: 4.4,
-    redirect: "/categories/construction/bouygues",
+    redirect: "/categories/bouygues",
     percentage: 91,
     totalReviews: 9876,
     metricProfile: [2800, 350, 290, 200, 6236], // Example metrics
@@ -254,7 +254,7 @@ export const constructionData: dataType[] = [
     summary:
       "Vinci Construction is a global leader in construction, infrastructure, and concessions. With expertise in large-scale projects, Vinci focuses on innovation, sustainability, and delivering high-quality engineering solutions worldwide.",
     rating: 4.3,
-    redirect: "/categories/construction/vinci",
+    redirect: "/categories/vinci",
     percentage: 90,
     totalReviews: 10450,
     metricProfile: [2900, 380, 300, 250, 6620], // Example metrics
@@ -336,7 +336,7 @@ export const constructionData: dataType[] = [
     summary:
       "Bechtel is one of the world's largest engineering, construction, and project management firms. With a focus on innovation, safety, and sustainability, Bechtel delivers major infrastructure, energy, and transportation projects across the globe.",
     rating: 4.2,
-    redirect: "/categories/construction/bechtel",
+    redirect: "/categories/bechtel",
     percentage: 89,
     totalReviews: 9450,
     metricProfile: [2700, 400, 310, 240, 6100], // Example metrics
@@ -418,7 +418,7 @@ export const constructionData: dataType[] = [
     summary:
       "Skanska is a leading global construction and project development firm, specializing in commercial and residential infrastructure. With a strong commitment to sustainability and innovation, Skanska delivers high-quality engineering and construction solutions worldwide.",
     rating: 4.3,
-    redirect: "/categories/construction/skanska",
+    redirect: "/categories/skanska",
     percentage: 92,
     totalReviews: 8750,
     metricProfile: [2600, 350, 280, 230, 5900], // Example metrics
@@ -500,7 +500,7 @@ export const constructionData: dataType[] = [
     summary:
       "Strabag SE is one of Europe's largest construction companies, specializing in infrastructure, tunneling, and civil engineering. With a strong focus on innovation and sustainability, Strabag delivers high-quality projects worldwide.",
     rating: 4.1,
-    redirect: "/categories/construction/strabag",
+    redirect: "/categories/strabag",
     percentage: 87,
     totalReviews: 8200,
     metricProfile: [2500, 320, 290, 210, 5700], // Example metrics
@@ -582,7 +582,7 @@ export const constructionData: dataType[] = [
     summary:
       "Obayashi Corporation is one of Japan’s largest construction companies, specializing in infrastructure, commercial buildings, and civil engineering. With a strong focus on technology and sustainability, Obayashi is a leader in smart construction and green building solutions.",
     rating: 4.2,
-    redirect: "/categories/construction/obayashi",
+    redirect: "/categories/obayashi",
     percentage: 90,
     totalReviews: 7800,
     metricProfile: [2400, 310, 270, 200, 5400], // Example metrics

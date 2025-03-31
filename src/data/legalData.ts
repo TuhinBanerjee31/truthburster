@@ -8,7 +8,7 @@ export const legalData: dataType[] = [
     summary:
       "Kirkland & Ellis is a leading global law firm specializing in corporate law, litigation, intellectual property, restructuring, and private equity. With a strong reputation for excellence, the firm serves a diverse range of clients, from Fortune 500 companies to emerging startups.",
     rating: 4.6,
-    redirect: "/categories/legal/kirkland-ellis",
+    redirect: "/categories/kirkland-ellis",
     percentage: 96,
     totalReviews: 8750,
     metricProfile: [4200, 680, 450, 320, 3300], // Example metrics
@@ -90,7 +90,7 @@ export const legalData: dataType[] = [
     summary:
       "Latham & Watkins is a globally renowned law firm specializing in corporate transactions, litigation, finance, and regulatory matters. Known for its client-focused approach and innovative legal strategies, the firm serves multinational corporations, financial institutions, and startups.",
     rating: 4.7,
-    redirect: "/categories/legal/latham-watkins",
+    redirect: "/categories/latham-watkins",
     percentage: 97,
     totalReviews: 9200,
     metricProfile: [4500, 750, 500, 350, 3100], // Example metrics
@@ -172,7 +172,7 @@ export const legalData: dataType[] = [
     summary:
       "DLA Piper is a globally recognized law firm offering comprehensive legal services in corporate law, litigation, intellectual property, and regulatory matters. With a vast network of offices worldwide, the firm provides innovative and business-focused legal solutions.",
     rating: 4.4,
-    redirect: "/categories/legal/dla-piper",
+    redirect: "/categories/dla-piper",
     percentage: 92,
     totalReviews: 8500,
     metricProfile: [4000, 700, 480, 360, 2960], // Example metrics
@@ -254,7 +254,7 @@ export const legalData: dataType[] = [
     summary:
       "Clifford Chance is a prestigious international law firm specializing in corporate law, finance, litigation, and regulatory matters. With offices across major financial centers, the firm is known for delivering high-quality legal services to global clients.",
     rating: 4.5,
-    redirect: "/categories/legal/clifford-chance",
+    redirect: "/categories/clifford-chance",
     percentage: 94,
     totalReviews: 8900,
     metricProfile: [4300, 720, 500, 340, 3100], // Example metrics
@@ -336,7 +336,7 @@ export const legalData: dataType[] = [
     summary:
       "Freshfields Bruckhaus Deringer is a leading international law firm known for its expertise in corporate law, finance, dispute resolution, and regulatory matters. With a strong global presence, the firm delivers strategic legal solutions to multinational corporations and institutions.",
     rating: 4.6,
-    redirect: "/categories/legal/freshfields",
+    redirect: "/categories/freshfields",
     percentage: 95,
     totalReviews: 8600,
     metricProfile: [4100, 690, 480, 320, 3010], // Example metrics
@@ -418,7 +418,7 @@ export const legalData: dataType[] = [
     summary:
       "Yingke Law Firm is one of the largest full-service law firms in China, specializing in corporate law, litigation, international trade, and intellectual property. With a vast global network, Yingke provides innovative legal solutions to businesses worldwide.",
     rating: 4.3,
-    redirect: "/categories/legal/yingke",
+    redirect: "/categories/yingke",
     percentage: 90,
     totalReviews: 7800,
     metricProfile: [3700, 650, 450, 300, 2700], // Example metrics
@@ -500,7 +500,7 @@ export const legalData: dataType[] = [
     summary:
       "Ashurst is a leading international law firm specializing in corporate law, banking & finance, dispute resolution, and regulatory matters. With a strong global network, the firm delivers innovative legal solutions to multinational corporations and financial institutions.",
     rating: 4.4,
-    redirect: "/categories/legal/ashurst",
+    redirect: "/categories/ashurst",
     percentage: 91,
     totalReviews: 7400,
     metricProfile: [3600, 620, 430, 290, 2460], // Example metrics
@@ -582,7 +582,7 @@ export const legalData: dataType[] = [
     summary:
       "Kim & Chang is South Korea's largest and most prestigious law firm, specializing in corporate law, intellectual property, litigation, and finance. With a strong international presence, the firm provides top-tier legal services to multinational corporations and government entities.",
     rating: 4.6,
-    redirect: "/categories/legal/kim-chang",
+    redirect: "/categories/kim-chang",
     percentage: 96,
     totalReviews: 8100,
     metricProfile: [4200, 680, 470, 310, 2440], // Example metrics
@@ -664,7 +664,7 @@ export const legalData: dataType[] = [
     summary:
       "Gowling WLG is a leading international law firm with expertise in corporate law, intellectual property, litigation, and regulatory matters. With a strong global network, the firm provides comprehensive legal solutions to businesses, governments, and institutions worldwide.",
     rating: 4.3,
-    redirect: "/categories/legal/gowling-wlg",
+    redirect: "/categories/gowling-wlg",
     percentage: 89,
     totalReviews: 6800,
     metricProfile: [3200, 590, 410, 280, 2320], // Example metrics
@@ -746,7 +746,7 @@ export const legalData: dataType[] = [
     summary:
       "AllBright Law Offices is one of the largest full-service law firms in China, specializing in corporate law, securities, mergers & acquisitions, and dispute resolution. With a vast network of offices across China and international partnerships, AllBright provides comprehensive legal solutions to clients worldwide.",
     rating: 4.2,
-    redirect: "/categories/legal/allbright",
+    redirect: "/categories/allbright",
     percentage: 87,
     totalReviews: 6500,
     metricProfile: [3100, 570, 390, 270, 2170], // Example metrics

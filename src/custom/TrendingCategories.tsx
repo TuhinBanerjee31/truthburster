@@ -25,7 +25,7 @@ const trendCategories = [
   {
     compo: <SwatchBook />,
     title: "Textile",
-    redirect:"/categories/manufacture"
+    redirect:"/categories/textile"
   },
   {
     compo: <RadioTower />,

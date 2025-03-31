@@ -28,6 +28,11 @@ import StrabagPage from "./pages/StrabagPage";
 import ObayashiPage from "./pages/ObayashiPage";
 import Legal from "./pages/Legal";
 import About from "./pages/About";
+import Manufacture from "./pages/Manufacture";
+import Textile from "./pages/Textile";
+import Telecom from "./pages/Telecom";
+import Bpo from "./pages/Bpo";
+import Energy from "./pages/Energy";
 
 function App() {
   return (
@@ -42,25 +47,30 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/categories/it" element={<It />} />
         <Route path="/categories/construction" element={<Construction />} />
+        <Route path="/categories/manufacture" element={<Manufacture />} />
+        <Route path="/categories/textile" element={<Textile />} />
+        <Route path="/categories/telecom" element={<Telecom />} />
+        <Route path="/categories/bpo" element={<Bpo />} />
+        <Route path="/categories/energy" element={<Energy />} />
         <Route path="/categories/legal" element={<Legal />} />
-        <Route path="/categories/it/ibm" element={<IbmPage />} />
-        <Route path="/categories/it/google" element={<GooglePage />} />
-        <Route path="/categories/it/microsoft" element={<MicrosoftPage />} />
-        <Route path="/categories/it/tcs" element={<TcsPage />} />
-        <Route path="/categories/it/infosys" element={<InfosysPage />} />
-        <Route path="/categories/it/accenture" element={<AccenturePage />} />
-        <Route path="/categories/it/oracle" element={<OraclePage />} />
-        <Route path="/categories/it/sap" element={<SapPage />} />
-        <Route path="/categories/it/cognizant" element={<CognizantPage />} />
-        <Route path="/categories/it/dell" element={<DellPage />} />
-        <Route path="/categories/construction/lt" element={<LtPage />} />
-        <Route path="/categories/construction/kpng" element={<KpngPage />} />
-        <Route path="/categories/construction/bouygues" element={<BouyguesPage />} />
-        <Route path="/categories/construction/vinci" element={<VinciPage />} />
-        <Route path="/categories/construction/bechtel" element={<BechtelPage />} />
-        <Route path="/categories/construction/skanska" element={<SkanskaPage />} />
-        <Route path="/categories/construction/strabag" element={<StrabagPage />} />
-        <Route path="/categories/construction/obayashi" element={<ObayashiPage />} />
+        <Route path="/categories/ibm" element={<IbmPage />} />
+        <Route path="/categories/google" element={<GooglePage />} />
+        <Route path="/categories/microsoft" element={<MicrosoftPage />} />
+        <Route path="/categories/tcs" element={<TcsPage />} />
+        <Route path="/categories/infosys" element={<InfosysPage />} />
+        <Route path="/categories/accenture" element={<AccenturePage />} />
+        <Route path="/categories/oracle" element={<OraclePage />} />
+        <Route path="/categories/sap" element={<SapPage />} />
+        <Route path="/categories/cognizant" element={<CognizantPage />} />
+        <Route path="/categories/dell" element={<DellPage />} />
+        <Route path="/categories/lt" element={<LtPage />} />
+        <Route path="/categories/kpng" element={<KpngPage />} />
+        <Route path="/categories/bouygues" element={<BouyguesPage />} />
+        <Route path="/categories/vinci" element={<VinciPage />} />
+        <Route path="/categories/bechtel" element={<BechtelPage />} />
+        <Route path="/categories/skanska" element={<SkanskaPage />} />
+        <Route path="/categories/strabag" element={<StrabagPage />} />
+        <Route path="/categories/obayashi" element={<ObayashiPage />} />
       </Routes>
     </>
   );
