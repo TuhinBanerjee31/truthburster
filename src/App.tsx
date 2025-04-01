@@ -33,6 +33,7 @@ import Textile from "./pages/Textile";
 import Telecom from "./pages/Telecom";
 import Bpo from "./pages/Bpo";
 import Energy from "./pages/Energy";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/categories" element={<Categories />} />
         <Route path="/findArea" element={<FindArea />} />
         <Route path="/about-us" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/view" element={<View />} />
         <Route path="/policy" element={<Policy />} />
         <Route path="/terms" element={<Terms />} />

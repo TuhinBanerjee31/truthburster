@@ -18,7 +18,7 @@ const Overview = () => {
 
         <div className="max-w-xl flex gap-8 ml-10">
           <Link to={"/about-us"} className="bg-[#ce9436] rounded px-4 py-2 text-white tracking-wide transition-colors duration-300 border border-[#ce9436] hover:bg-transparent hover:text-[#ce9436]">Know us</Link>
-          <Link to={"/resources"} className="hover:bg-[#ce9436] rounded px-4 py-2 hover:text-white tracking-wide transition-colors duration-300 border border-[#ce9436] bg-transparent text-[#ce9436]">Our resources</Link>
+          <Link to={"/contact"} className="hover:bg-[#ce9436] rounded px-4 py-2 hover:text-white tracking-wide transition-colors duration-300 border border-[#ce9436] bg-transparent text-[#ce9436]">Contact us</Link>
         </div>
       </div>
 
