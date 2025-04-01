@@ -102,7 +102,7 @@ export const energyData: dataType[] = [
     reviews: [
       {
         id: "1",
-        author: "James Miller",
+        author: "Mark Yoder",
         rating: 5,
         date: "2024-02-20",
         verified: true,
@@ -123,7 +123,7 @@ export const energyData: dataType[] = [
       },
       {
         id: "2",
-        author: "Laura Green",
+        author: "Viraj Sinha",
         rating: 3,
         date: "2023-11-15",
         verified: false,
@@ -144,7 +144,7 @@ export const energyData: dataType[] = [
       },
       {
         id: "3",
-        author: "Robert White",
+        author: "Mill White",
         rating: 4,
         date: "2024-01-10",
         verified: true,
@@ -163,6 +163,69 @@ export const energyData: dataType[] = [
           },
         ],
       },
+      {
+        id: "4",
+        author: "Sofiya Khatun",
+        rating: 5,
+        date: "2024-03-05",
+        verified: true,
+        content:
+          "KPNG Construction exceeded our expectations! The team was highly skilled, communicative, and delivered outstanding results ahead of schedule.",
+        helpful: 15,
+        isHelpful: false,
+        showComments: false,
+        comments: [
+          {
+            id: "c4",
+            author: "KPNG Construction Support",
+            content:
+              "Thank you, Sophia! We're thrilled to hear you had such a great experience with our team.",
+            date: "2024-03-06",
+          },
+        ],
+      },
+      {
+        id: "5",
+        author: "Mike Foster",
+        rating: 4,
+        date: "2024-02-28",
+        verified: true,
+        content:
+          "Great work on our home renovation! The team was professional, and the quality of work is fantastic. A little more flexibility with last-minute changes would be appreciated.",
+        helpful: 12,
+        isHelpful: false,
+        showComments: false,
+        comments: [
+          {
+            id: "c5",
+            author: "KPNG Construction Team",
+            content:
+              "Thank you for your feedback, Daniel! We’ll work on being more adaptable to changes in future projects.",
+            date: "2024-02-29",
+          },
+        ],
+      },
+      {
+        id: "6",
+        author: "Emam Sk",
+        rating: 5,
+        date: "2024-03-12",
+        verified: true,
+        content:
+          "Highly recommended! KPNG Construction transformed our space beautifully. The attention to detail and craftsmanship were impressive.",
+        helpful: 20,
+        isHelpful: false,
+        showComments: false,
+        comments: [
+          {
+            id: "c6",
+            author: "KPNG Construction Management",
+            content:
+              "We appreciate your kind words, Emily! It was a pleasure working on your project.",
+            date: "2024-03-13",
+          },
+        ],
+      }
     ],
   },
   {
