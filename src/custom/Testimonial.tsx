@@ -17,14 +17,14 @@ const testiData = [
     name: "Samantha B.",
   },
   {
-    content: `“I love Truthburster because I can read reviews about other
+    content: `“I love truthbusters because I can read reviews about other
                   websites and make informed decisions. It’s easy to use and
                   find what you’re looking for. I like that I can build my own
                   profile, write reviews and help other consumers.”`,
     name: "Nafia T.",
   },
   {
-    content: ` “Truthburster reviews have been extremely helpful to me. It
+    content: ` “truthbusters reviews have been extremely helpful to me. It
                   has a really great set up to make it easy to find a website.
                   AND, you can even connect with other users like social media
                   and make friends if you want.”`,
@@ -33,7 +33,7 @@ const testiData = [
   {
     content: `“I only wish I had known about this website a long time ago.
                   It’s awesome to be able to get it out to the public what many
-                  of the sites are about. Thanks, Truthburster, for helping to
+                  of the sites are about. Thanks, truthbusters, for helping to
                   open the book on scammers.”`,
     name: `Athena M.`,
   },

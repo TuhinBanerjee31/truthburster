@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import heroImg from "../assets/heroImg.png";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Assurance", "Proof", "Reviews", "Truthburster"];
+const TEXTS = ["Assurance", "Proof", "Reviews", "truthbusters"];
 
 const Hero = () => {
   const [index, setIndex] = useState(0);

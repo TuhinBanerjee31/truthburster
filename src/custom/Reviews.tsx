@@ -1,10 +1,5 @@
 import { useState, useEffect } from "react";
-import {
-  Star,
-  ThumbsUp,
-  ChevronDown,
-  MessageCircle,
-} from "lucide-react";
+import { Star, ThumbsUp, ChevronDown, MessageCircle } from "lucide-react";
 import { dataType, Review } from "../public";
 
 type CompanyProps = {
@@ -158,7 +153,7 @@ const Reviews = ({ data }: CompanyProps) => {
                         </span>
                         {review.verified && (
                           <span className="text-green-600 text-sm">
-                            ✓ Verified Purchase
+                            ✓ Verified
                           </span>
                         )}
                       </div>
