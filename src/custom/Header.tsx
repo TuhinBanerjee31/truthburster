@@ -6,7 +6,7 @@ import { Search, PencilLine, Menu, X } from "lucide-react";
 const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  },[]);
+  }, []);
 
   const [dropDown, setDropDown] = useState(false);
   const [hide, setHide] = useState(true);
@@ -36,7 +36,7 @@ const Header = () => {
           <NavLink to={"/"} className="font-play flex gap-1 items-center">
             <img src={logo} className="w-10" />
             <h5 className="text-2xl text-[#854b23] font-medium">
-              truthburster
+              truthbusters
             </h5>
           </NavLink>
 
@@ -60,7 +60,7 @@ const Header = () => {
         <div className="flex font-Rubik items-center gap-7">
           <span className="flex items-center gap-2 cursor-pointer">
             <PencilLine size={18} />
-            <NavLink to={"/write-review"}>Write a review</NavLink>
+            <NavLink to={"/"}>Write a review</NavLink>
           </span>
 
           <div>
@@ -83,7 +83,7 @@ const Header = () => {
             <div className="font-play flex gap-1 items-center">
               <img src={logo} className="w-8" />
               <h5 className="text-xl text-[#854b23] font-medium">
-                truthburster
+                truthbusters
               </h5>
             </div>
           </div>
@@ -154,7 +154,7 @@ const Header = () => {
           <div className="flex w-[80%] mt-2">
             <span className="flex items-center w-[50%] gap-2 p-2 cursor-pointer">
               <PencilLine size={18} />
-              <NavLink to={"/write-review"}>Write a review</NavLink>
+              <NavLink to={"/"}>Write a review</NavLink>
             </span>
 
             <button className="border-[#ce9436] p-1 text-[#ce9436] transition-colors duration-400 hover:bg-[#ce9436] hover:text-white border cursor-pointer w-[50%] rounded ">
